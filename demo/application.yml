@@ -1,0 +1,17 @@
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost/lbh_rule?serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&useSSL=false&verifyServerCertificate=false
+
+
+logging:
+  level:
+    org.hibernate.SQL: debug
