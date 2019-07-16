@@ -1,3 +1,2 @@
-env: dev
 server:
   port: 8084
